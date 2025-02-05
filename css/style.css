@@ -173,6 +173,8 @@ h2 {
     width: 31%;
     border: 1px solid #d0cfd4;
     padding: 10px;
+    height: 1050px;
+    position: relative;
 }
 
 ul {
@@ -189,7 +191,7 @@ ul {
 }
 
 .margine-bottom {
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 
 }
 
@@ -220,6 +222,11 @@ h5 {
     margin-bottom: 25px;
 }
 
-.margine-bottom .fa-solid {
+.margine-bottom .fa-check {
     color: #0061fe;
+}
+
+.pos {
+   position: relative;
+   top: -20px;
 }
