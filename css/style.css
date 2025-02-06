@@ -97,7 +97,7 @@ h2 {
 .button-medium {
     background-color: #0061fe;
     min-width: 225px;
-    height: 45px;
+    padding: 11px;
     color: white;
     border: none;
     font-size: 16px;
@@ -218,7 +218,7 @@ ul {
     margin-top: 40px;
 }
 
-h5 {
+h4 {
     margin-bottom: 25px;
 }
 
@@ -229,4 +229,34 @@ h5 {
 .pos {
    position: relative;
    top: -20px;
+}
+
+.container-team {
+    height: 250px;
+    margin-top: 50px;
+    border: 1px solid #d0cfd4;
+    position: relative;
+}
+
+.team {
+    border-bottom: 1px solid #d0cfd4;
+    text-align: center;
+    padding: 10px;
+}
+
+.pos-btn {
+    position: absolute;
+    top: 25px;
+    right: 30px;
+}
+
+.d-inline {
+    display: inline-block;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.solution {
+    max-width: 600px;
+    margin-top: 50px;
 }
