@@ -213,7 +213,7 @@ ul {
 
 .line {
     height: 1px;
-    width: 50px;
+    width: 80px;
     background-color: #d0cfd4;
     margin-bottom: 40px;
     margin-top: 40px;
@@ -298,6 +298,7 @@ h4 {
     margin-top: 70px;
     flex-wrap: wrap;
     gap: 50px;
+    margin-bottom: 250px;
 }
 
 .col-grid {
@@ -308,4 +309,43 @@ h4 {
 .img-grid {
     width:  100%;
     height: 210px;
+}
+
+.m-bottom-footer {
+    margin-bottom: 180px;
+}
+
+
+footer {
+    background-color: black;
+}
+
+.container-footer {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1400px;
+    padding: 68px;
+    margin-left: 160px;
+    gap: 20px;
+    margin-top: 60px;
+}
+
+
+.grid-footer {
+    width: 210px;
+    height: 225px;
+    flex-shrink: 0;
+    padding: 5px;
+    margin-right: 2px;
+}
+
+.text-ind {
+    text-indent: 0px;
+}
+
+.italiano {
+        margin-left: 5px;
+        margin-right: 8px;
 }
