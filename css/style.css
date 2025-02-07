@@ -71,10 +71,15 @@ header {
 
 .container-title > h1 {
     font-size: 55px;
+    font-weight: bold;
 }
 
 h2 {
     font-size: 25px
+}
+
+.h2-font-size {
+    font-size: 40px;
 }
 
 .container-title {
@@ -238,10 +243,6 @@ h4 {
     color: #0061fe;
 }
 
-.pos {
-   position: relative;
-   top: -20px;
-}
 
 .container-team {
     height: 250px;
